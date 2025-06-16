@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Content Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #eaf6f6;
+    }
+    header {
+      background: #003f5c;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav {
+      background: #2f4b7c;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      margin: 0.5rem 1rem;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      background-color: #665191;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background-color: #a05195;
+    }
+    table {
+      width: 80%;
+      margin: 2rem auto;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f4a261;
+    }
+    tfoot td {
+      font-weight: bold;
+      background-color: #e76f51;
+      color: #fff;
+    }
+    section {
+      width: 80%;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      border-left: 6px solid #2a9d8f;
+    }
+    section h2 {
+      color: #264653;
+    }
+    section ul li {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Course Content Overview</h1>
+  </header>
+  <nav>
+    <a href="#dbms">DBMS</a>
+    <a href="#networking">Networking</a>
+    <a href="#webtech">Web Tech – II</a>
+    <a href="#cprog">C Programming II</a>
+    <a href="#oop">OOP</a>
+    <a href="#sdlc">SDLC</a>
+    <a href="#trends">Trends</a>
+  </nav>
+  <table>
+    <thead>
+      <tr>
+        <th>N.</th>
+        <th>Topic</th>
+        <th>Content wise marks</th>
+        <th>Working hours</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td><a href="#dbms">Database management system</a></td>
+        <td>8</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><a href="#networking">Data communication and networking</a></td>
+        <td>9</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><a href="#webtech">Web Tech – II</a></td>
+        <td>8</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td><a href="#cprog">C Programming II</a></td>
+        <td>8</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td><a href="#oop">Object oriented programming</a></td>
+        <td>6</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td><a href="#sdlc">Software development life cycle</a></td>
+        <td>6</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td><a href="#trends">Recent Trends in technology</a></td>
+        <td>5</td>
+        <td>9</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">Total</td>
+        <td>50</td>
+        <td>80</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <section id="dbms">
+    <h2>Database Management System</h2>
+    <p>A Database Management System (DBMS) is software that allows users to define, create, maintain, and control access to the database. It helps in managing large amounts of data efficiently and ensures data integrity, security, and consistency.</p>
+    <ul>
+      <li><strong>Data vs Information:</strong> Data is raw facts; information is processed data.</li>
+      <li><strong>Features of Information:</strong> Timeliness, Accuracy, Relevance, Completeness</li>
+      <li><strong>Database Purpose:</strong> Efficient data storage and retrieval</li>
+      <li><strong>Terminologies:</strong> Table, Field, Record, Tuple, Object, Keys</li>
+      <li><strong>Data Dictionary:</strong> Metadata repository</li>
+      <li><strong>Objectives of DBMS:</strong> Data integrity, security, sharing, backup</li>
+      <li><strong>Advantages:</strong> Reduced redundancy, consistency, security</li>
+      <li><strong>Disadvantages:</strong> Cost, complexity, size</li>
+    </ul>
+  </section>
+  <section id="networking">
+    <h2>Data Communication and Networking</h2>
+    <p>This topic covers how data is transmitted between computers and devices using transmission mediums. It includes network topologies, protocols, OSI and TCP/IP models, and networking hardware.</p>
+  </section>
+  <section id="webtech">
+    <h2>Web Tech – II</h2>
+    <p>Focuses on advanced concepts of web technologies including JavaScript, client-server scripting, dynamic content rendering, and frameworks for front-end and back-end development.</p>
+  </section>
+  <section id="cprog">
+    <h2>C Programming II</h2>
+    <p>This covers advanced features of C language like file handling, dynamic memory allocation, structures and unions, pointers, and data structures using C.</p>
+  </section>
+  <section id="oop">
+    <h2>Object Oriented Programming</h2>
+    <p>OOP is a paradigm based on the concept of "objects" which contain data and code. It covers classes, inheritance, polymorphism, encapsulation, abstraction, and object-oriented design principles.</p>
+  </section>
+  <section id="sdlc">
+    <h2>Software Development Life Cycle</h2>
+    <p>SDLC is a process for planning, creating, testing, and deploying information systems. Phases include Requirement Gathering, Design, Implementation, Testing, Deployment, and Maintenance.</p>
+  </section>
+  <section id="trends">
+    <h2>Recent Trends in Technology</h2>
+    <p>Includes topics such as Artificial Intelligence, Machine Learning, Internet of Things (IoT), Blockchain, Cloud Computing, and Cybersecurity advancements.</p>
+  </section>
+</body>
+</html>
